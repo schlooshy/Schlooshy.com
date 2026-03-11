@@ -6,16 +6,21 @@
     <title>Cookie Clicker</title>
     <link rel="stylesheet" href="cookieclicker.css">
     <link rel="icon" href="/Cookie Clicker/images/cookie.png">
+</head>
 <body>
     <div id="buttondiv">
         <button onclick="pressed()" id="button">
             <img src="/Cookie Clicker/images/cookie.png" alt="cookie" height="500px" width="500px">
         </button>
-        <button onclick="powerUp()" id="powerup1">
-            Power up 
+        <button onclick="powerUp()" id="powerup">
+            Power up <br> 2 Clicks Per Click <br> 100 Clicks Required
         </button>
         <p id="counter">0</p>
         <p id="error"></p>
+    </div>
+    <div id="input">
+        <button id="submit" onclick="submit()">Submit</button>
+        <input id="numberinput" type="number"></input>
     </div>
     <script src="cookieclicker.js"></script>
 </body>
