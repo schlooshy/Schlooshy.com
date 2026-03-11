@@ -1,0 +1,26 @@
+
+body{
+    background-image: url(/brianpage/images/brianbackground.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#title{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: black;
+    font-size: 30em;
+}
+#description{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 5em;
+    text-shadow: 3px 3px 5px black;
+}
+#dyslexia{
+    text-align: center;
+    
+}

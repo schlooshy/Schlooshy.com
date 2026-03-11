@@ -1,0 +1,30 @@
+
+body{
+    background-image: url(/cookieclicker/images/wood.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif
+}
+#button{
+    width: 50%;
+    height: 50%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    background-color: transparent;
+    border: none;
+}
+#clickcount{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("/cookieclicker/images/wood.jpg");
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 5em;
+}

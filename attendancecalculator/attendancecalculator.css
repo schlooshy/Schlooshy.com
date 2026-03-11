@@ -1,0 +1,54 @@
+
+@font-face{
+    src: url(/fonts/OpenDyslexic-Regular.otf);
+    font-family: OpenDyslexic;
+}
+input, button{
+    font-family: inherit;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+    text-align: center;
+}
+#inputandsubmit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#input{
+    text-align: center;
+    border: none;
+    outline: none;
+    font-size: 5em;
+}
+#submit{
+    background-color: white;
+}
+#error{
+    color: red;
+    text-align: center;
+}
+#resulttitle{
+    font-size: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+#resultoutput{
+    font-size: 5em;
+    text-align: center;
+}
+#dyslexia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#dyslexiabutton{
+    background-color: white;
+}
+.dyslexia-mode{
+    font-family: "OpenDyslexic", "Comic Sans MS", sans-serif;
+}

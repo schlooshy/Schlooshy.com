@@ -1,0 +1,72 @@
+
+@font-face{
+    src: url(/fonts/OpenDyslexic-Regular.otf);
+    font-family: OpenDyslexic;
+}
+button, input{
+    font-family: inherit;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#name{
+    text-align: center;
+    position: sticky;
+    text-decoration: underline;
+}
+
+.sourcecode{
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+#subdomains{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 25px;
+}
+#subdomaintitle{
+    text-align: center;
+}
+.codes{
+    text-align: center;
+}
+#input{
+    text-align: center;
+}
+#codeinput{
+    text-align: center;
+    width: 1000px;
+}
+#submit{
+    border-style: solid;
+    border-radius: 2px;
+    border-color: rgb(0, 0, 0);
+    background-color: white;
+    color: black;
+
+}
+#error{
+    color: red;
+    text-align: center;
+}
+#tutorialtitle{
+    text-align: center;
+    text-decoration: underline;
+}
+#tutorial{
+    text-align: center;
+}
+#dyslexia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#dyslexiabutton{
+    background-color: white;
+}
+.dyslexia-mode{
+    font-family: "OpenDyslexic", "Comic Sans MS", sans-serif;
+}

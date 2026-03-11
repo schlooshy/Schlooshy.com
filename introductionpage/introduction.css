@@ -1,0 +1,14 @@
+
+
+input, button{
+    font-family: inherit;
+}
+#title{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+}
+.introduction{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}

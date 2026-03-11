@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Calculator</title>
+    <link rel="stylesheet" href="attendancecalculator.css">
+</head>
+<body>
+    <h1 id="header"> Attendance percentage/days missed calculator</h1>
+
+    <br>
+    <hr>
+    <br>
+
+    <div id="inputandsubmit">
+        <input id="input" type="number" placeholder="Enter a percentage"></input>
+        <br>
+        <br>
+        <button onclick="calculate()" id="submit">Submit</button>
+    </div>
+
+    <br>
+
+    <hr>
+
+    <h2 id="resulttitle">Result</h2>
+
+    <p id="resultoutput"></p>
+
+    <p id="error"></p>
+
+    <hr>
+
+    <div id="dyslexia" onclick="dyslexiamode()">
+        <button id="dyslexiabutton">OpenDyslexic Font</button>
+    </div>
+
+    <script src="attendancecalculator.js"></script>
+</body>
+</html>
