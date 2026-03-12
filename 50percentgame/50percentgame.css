@@ -1,0 +1,110 @@
+
+@font-face{
+    src: url(/fonts/OpenDyslexic-Regular.otf);
+    font-family: OpenDyslexic;
+}
+body{
+    font-family: Arial, Helvetic, sans-serif;
+    text-align: center;
+    background-color: rgb(228, 210, 167);
+}
+#title{
+    font-size: 5em;
+    text-decoration: underline;
+}
+#balancetitle{
+    font-size: 3em;
+    text-decoration: underline;
+}
+#balance{
+    font-size: 3em;
+    color: black;
+}
+#button1{
+    border-style: solid;
+    background-color: transparent;
+    border-color: black;
+    border-radius: 20px;
+    font-size: 5em;
+    width: 200px;
+    margin-right: 10px;
+}
+#button1:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+#button2{
+    border-style: solid;
+    background-color: transparent;
+    border-color: black;
+    border-radius: 20px;
+    font-size: 5em;
+    width: 200px;
+    margin-left: 10px;
+}
+#button2:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+#fail{
+    color: red;
+    font-size: 2em;
+    text-decoration: underline;
+}
+#success{
+    color: limegreen;
+    font-size: 2em;
+    text-decoration: underline;
+}
+#balancediv{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+#enemybalancediv{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+}
+#enemybalance{
+    font-size: 3em;
+    color: black;
+}
+#enemybalancetitle{
+    font-size: 3em;
+    text-decoration: underline;
+}
+#input{
+    background-color: transparent;
+    outline: none;
+    font-size: 5em;
+    text-align: center;
+    border-color: black;
+    border-radius: 20px;
+}
+#input:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+#inputtitle{
+    text-decoration: underline;
+}
+#inputdiv{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 60px;
+}
+.dyslexia-mode{
+    font-family: "OpenDyslexic", "Comic Sans MS", sans-serif;
+}
+#dyslexiabutton{
+    background-color: transparent;
+    border-radius: 20px;
+    font-size: 2em;
+}
+#dyslexiabutton:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

@@ -10,6 +10,7 @@ function checkcode(){
     const clicker = "3004";
     const threefoursixseveneight = "67";
     const cookieclicker = "2";
+    const fiftypercentgame = "3";
 
     if (input === introductioncode) {
 
@@ -31,7 +32,10 @@ function checkcode(){
         window.location.href = "/cityboi/cityboi.html"
     }
     else if (input===cookieclicker){
-        window.location.href = 
+        window.location.href = "/Cookie Clicker/cookieclicker.html"
+    }
+    else if (input===cookieclicker){
+        window.location.href = "/50percentgame/"
     }
     else{ 
         error.textContent = "Invalid Input!"}
