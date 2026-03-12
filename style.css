@@ -45,7 +45,10 @@ body{
     border-color: rgb(0, 0, 0);
     background-color: white;
     color: black;
-
+}
+#submit:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 #error{
     color: red;
@@ -66,6 +69,10 @@ body{
 }
 #dyslexiabutton{
     background-color: white;
+}
+#dyslexiabutton:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 .dyslexia-mode{
     font-family: "OpenDyslexic", "Comic Sans MS", sans-serif;

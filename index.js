@@ -34,8 +34,8 @@ function checkcode(){
     else if (input===cookieclicker){
         window.location.href = "/Cookie Clicker/cookieclicker.html"
     }
-    else if (input===cookieclicker){
-        window.location.href = "/50percentgame/"
+    else if (input===fiftypercentgame){
+        window.location.href = "/50percentgame/50percentgame.html"
     }
     else{ 
         error.textContent = "Invalid Input!"}
